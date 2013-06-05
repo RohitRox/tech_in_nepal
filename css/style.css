@@ -251,3 +251,26 @@ header a {
 	padding-left: 190px;
 	text-align: left;
 }
+
+.timeline {
+	background: #fff;
+}
+
+.tech {
+	background: #0bc032;
+	margin-bottom: 0;
+}
+
+.tech h2 {
+	color: #0bc032;
+	background: url(../images/section3.png) no-repeat right;
+}
+
+footer {
+	background: #e8e8e8;
+}
+
+
+footer figure {
+	text-align: center;
+}
