@@ -1,19 +1,9 @@
-$(".circle1").hover(
-  function () {
-    $(this).siblings(".year1").css('display','block');
-     $(this).siblings(".percent1").css('display','block');
-  },
-  function () {
-    $(this).siblings(".year1").css('display','none');
-     $(this).siblings(".percent1").css('display','none');
-  }
-);
+$(document).ready(function(){
 
-// $(".circle1").hover(
-//   function () {
-//     $(this).siblings(".percent1").css('display','block');
-//   },
-//   function () {
-//     $(this).siblings(".percent2").css('display','none');
-//   }
-// );
+  setTimeout(function(){
+    $(".year1").fadeIn('slow');
+    $(".percent1").fadeIn('slow');
+  },2000);
+
+
+});
