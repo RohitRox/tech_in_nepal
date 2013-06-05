@@ -107,6 +107,17 @@ header a {
 	letter-spacing: 1px;
 }
 
+.circle1 {
+	background: url(../images/sprite.png) no-repeat -458px -16px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 335px;
+	cursor: pointer;
+	top: -13px;
+}
+
+
 .year1 {
 	background: url(../images/sprite.png) no-repeat -357px -15px;
 	width: 94px;
@@ -114,24 +125,17 @@ header a {
 	position: absolute;
 	left: 231px;
 	top: -17px;
+	display: none;
 }
 
 .percent1 {
-	background: url(../images/sprite.png) no-repeat -456px -2px;
+	background: url(../images/sprite.png) no-repeat -456px 0px;
 	width: 376px;
 	height: 108px;
 	position: absolute;
-	left: 335px;
-	top: -27px;
-}
-
-.circle1 {
-	background: url(../images/sprite.png) no-repeat -458px -16px;
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	left: 335px;
-	top: -13px;
+	left: 333px;
+	top: -29px;
+	display: none;
 }
 
 .year2 {
